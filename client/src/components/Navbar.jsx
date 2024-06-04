@@ -40,7 +40,7 @@ const Navbar = () => {
             <Link className="link" to="/login">
               Login
             </Link>
-          )}
+          )} 
           <span className="write">
             <Link className="link" to="/write">
               Write
