@@ -12,7 +12,7 @@ const Menu = ({cat}) => {
       } catch (err) {
         console.log(err);
       }
-    };
+    }; 
     fetchData();
   }, [cat]);
   // const posts = [
