@@ -8,7 +8,7 @@ const Login = () => {
   const [inputs, setInputs] = useState({
     username: "",
     password: "",
-  });
+  }); 
   const [err, setError] = useState(null);
 
   const navigate = useNavigate();
