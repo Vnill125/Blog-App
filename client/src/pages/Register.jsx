@@ -8,7 +8,7 @@ const Register = () => {
     username: "",
     email: "",
     password: "",
-  });
+  }); 
   const [err, setError] = useState(null);
 
   const navigate = useNavigate();
